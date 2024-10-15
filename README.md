@@ -45,7 +45,7 @@ dbt_portfolio/
 ├── dbt_project.yml
 ├── README.md
 └── .gitignore
-
+```
 
 - models/src/: Contains raw source models.
 - models/staging/: Contains transformed staging models.
