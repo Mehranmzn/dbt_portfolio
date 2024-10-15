@@ -1,0 +1,29 @@
+[0m11:34:31.667847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072f3110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073034d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107318e50>]}
+
+
+============================== 11:34:31.670634 | d15db8dd-1e86-454d-918e-9961e8608d75 ==============================
+[0m11:34:31.670634 [info ] [MainThread]: Running with dbt=1.7.18
+[0m11:34:31.670990 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/Moaze002/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init dbtlearn', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:34:31.671908 [debug] [MainThread]: Starter project path: /Users/Moaze002/.local/share/virtualenvs/dbt_portfolio-MBgx41qA/lib/python3.11/site-packages/dbt/include/starter_project
+[0m11:34:31.676223 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:34:31.676444 [info ] [MainThread]: Setting up your profile.
+[0m11:37:13.417575 [info ] [MainThread]: Profile dbtlearn written to /Users/Moaze002/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:37:13.722897 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 162.09581, "process_user_time": 1.046595, "process_kernel_time": 0.19421, "process_mem_max_rss": "120799232", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:37:13.725026 [debug] [MainThread]: Command `dbt init` succeeded at 11:37:13.724604 after 162.10 seconds
+[0m11:37:13.726216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f5a9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102e35650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106da2950>]}
+[0m11:37:13.727517 [debug] [MainThread]: Flushing usage events
