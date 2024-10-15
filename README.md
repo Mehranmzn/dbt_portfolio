@@ -11,7 +11,7 @@ The Airbnb dataset consists of three main tables 📑:
 - **Hosts**: Details about the hosts offering properties.
 - **Reviews**: Customer feedback on the listed properties.
 
-![data_flow](assets/data_flow.jpg)
+![data_flow](assets/flow.jpg)
 
 ## Architecture 🏙
 
