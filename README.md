@@ -11,6 +11,8 @@ The Airbnb dataset consists of three main tables 📑:
 - **Hosts**: Details about the hosts offering properties.
 - **Reviews**: Customer feedback on the listed properties.
 
+![data_flow](assets/data_flow.jpg)
+
 ## Architecture 🏙
 
 The data pipeline is structured in the following way:
@@ -20,6 +22,8 @@ The data pipeline is structured in the following way:
    - **Views**: Derived data tables for analytical purposes.
    - **Ephemeral Models**: Temporary transformations that do not persist in the database.
    - **Tables**: Finalized materialized tables that persist in the Snowflake database.
+
+![dbt_flow](assets/dbt_flow.jpg)
 
 ## Key Features 🔑
 
